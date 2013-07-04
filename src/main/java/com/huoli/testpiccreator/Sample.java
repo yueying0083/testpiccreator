@@ -109,7 +109,7 @@ public class Sample
 				sb.append(IMG_START).append(sm.getContent()).append(IMG_END);
 			} else {
 				if (sm.getContent().startsWith("发型屋小编猜")
-						|| sm.getContent().startsWith("发型屋编辑猜")
+						|| sm.getContent().startsWith("发型屋编辑")
 						|| sm.getContent().contains("猜你喜欢")) {
 					break;
 				}
